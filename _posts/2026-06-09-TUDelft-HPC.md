@@ -15,7 +15,7 @@ tags:
 
 If you're a researcher or student at TU Delft and you need more computational power than your laptop can offer — whether for running simulations, training machine learning models, or processing large datasets — **DelftBlue** and **DAIC** are your go-to resources.
 
-While the documentation of the clusters can be sufficient for frequent users, for preliminary users it can be less clear especially if not used before. I tend to forget some stuff myself and always in learning mode. With the intention of best way for learning something is to teach it! This post walks you through everything you need to get connected and start working on TU Delft's High Performance Computing (HPC) clusters. 
+While the documentation of the clusters can be sufficient for frequent users, for preliminary users it can be less clear especially if not used before. I tend to forget some stuff myself and always in learning mode. *With the intention of best way for learning something is to teach it!* This post walks you through everything you need to get connected and start working on TU Delft's High Performance Computing (HPC) clusters. 
 
 This tutorial is aimed at the TU Delft community but can be useful as well with similar HPC systems. We will focus on running a Python script, setting up virtual environment and shell script interface. 
 

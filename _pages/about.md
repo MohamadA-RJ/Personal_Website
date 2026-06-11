@@ -11,10 +11,7 @@ I'm a PhD candidate in <span style="color: #0066cc;">Aerospace Structures and Ma
 </div> -->
 
 <div style="text-align: justify;">
-I'm a PhD candidate in the <a href="https://www.tudelft.nl/en/ae/organisation/departments/aerospace-structures-and-materials" style="color: #f85151; text-decoration: none; font-weight: bold;">Aerospace Structures and Materials (ASM)</a> department at <a href="https://www.tudelft.nl/en/" style="color: inherit; text-decoration: none; font-weight: bold;">T<span style="color: #00A6D6;">U</span> Delft</a>, Faculty of Aerospace Engineering. My research lies at the intersection of deep learning and computational micromechanics, with a focus on the design and analysis of large-scale aerospace-grade composite structures.
-<br>
-<br>
-Prior to joining TU Delft, I worked as a MS researcher in the <a href="http://mdam.kaist.ac.kr/" style="color: #f85151; text-decoration: none; font-weight: bold;">Mechanical Design Lab. with Advanced Materials (MDAM)</a> at <a href="https://me.kaist.ac.kr/eng/main/main.html" style="color: inherit; text-decoration: none; font-weight: bold;"><span style="color: #0F4482;">KAIST</span></a>, South Korea where I focused on multifunctional carbon fiber-based structural batteries.
+I'm a PhD candidate in the <a href="https://www.tudelft.nl/en/ae/organisation/departments/aerospace-structures-and-materials" style="color: #0ba3cd; text-decoration: none; font-weight: bold;">Aerospace Structures and Materials (ASM)</a> department at <a href="https://www.tudelft.nl/en/" style="color: inherit; text-decoration: none; font-weight: bold;">T<span style="color: #00A6D6;">U</span> Delft</a>, Faculty of Aerospace Engineering. My research lies at the intersection of deep learning and computational micromechanics, with a focus on the design and analysis of large-scale aerospace-grade composite structures. Prior to joining TU Delft, I worked as a master’s researcher in the <a href="http://mdam.kaist.ac.kr/" style="color: #0F4482; text-decoration: none; font-weight: bold;">Mechanical Design Lab. with Advanced Materials (MDAM)</a> at <a href="https://me.kaist.ac.kr/eng/main/main.html" style="color: inherit; text-decoration: none; font-weight: bold;"><span style="color: #0F4482;">KAIST</span></a>, South Korea where I focused on multifunctional carbon fiber-based structural batteries.
 </div>
 
 <br>
@@ -54,5 +51,11 @@ Prior to joining TU Delft, I worked as a MS researcher in the <a href="http://md
 
 # Recent Posts
 ------
-Need to addd/link to BlogPosts tab 
+{% include base_path %}
+<div class="news-archive-list">
+  {% assign recent_posts = site.posts | sort: 'date' | reverse %}
+  {% for post in recent_posts limit:5 %}
+    {% include archive-single-news.html %}
+  {% endfor %}
+</div>
 

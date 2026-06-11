@@ -94,17 +94,15 @@ redirect_from:
 <br>
 
 # Talks & Presentations
-
 ---
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
 
 # Teaching
-
 ---
   <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
+    {% include archive-single-cv.html tab_url="/teaching/" %}
   {% endfor %}</ul>
 
 # Languages
