@@ -71,6 +71,13 @@ redirect_from:
 ---
 <div class="cv-pubs">
 
+<h3>Preprints</h3>
+  <ul>{% assign preprint_pubs = site.publications | where: "category", "preprints" | sort: "date" | reverse %}{% for post in preprint_pubs %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
+<br>
+
 <h3>Journal Articles</h3>
   <ul>{% assign journal_pubs = site.publications | where: "category", "manuscripts" | sort: "date" | reverse %}{% for post in journal_pubs %}
     {% include archive-single-cv.html %}
