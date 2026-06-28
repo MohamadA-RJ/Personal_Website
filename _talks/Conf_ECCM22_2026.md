@@ -13,5 +13,8 @@ images:
 - "/images/Conf_ECCM22_2026_img_2.jpg"
 - "/images/Conf_ECCM22_2026_img_3.jpg"
 - "/images/Conf_ECCM22_2026_img_4.jpg"
+- "/images/Conf_ECCM22_2026_img_5.jpg"
+- "/images/Conf_ECCM22_2026_img_6.jpg"
+- "/images/Conf_ECCM22_2026_img_7.jpg"
 
 ---
